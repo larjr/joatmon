@@ -24,9 +24,7 @@ Insert gif or link to demo
 
 ## Documentation
 
-- [localhost](https://localhost:8080/joatmon/api/swagger-ui.html)
-- [QA]()
-- [PROD]()
+<https://github.com/larjr/joatmon/wiki>
   
 ## API Reference
 
