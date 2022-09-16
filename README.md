@@ -21,8 +21,8 @@ Insert gif or link to demo
 
 ## Capturas de Telas
 
-![Captura de Tela](https://via.placeholder.com/468x300.png?text=Captura+de+Tela+Aqui)
-![Outra Captura de Tela](https://via.placeholder.com/468x300.png?text=Outra+Captura+de+Tela+Aqui)
+![Captura de Tela](https://via.placeholder.com/384x250.png?text=Captura+de+Tela+Aqui)
+![Outra Captura de Tela](https://via.placeholder.com/384x250.png?text=Outra+Captura+de+Tela+Aqui)
 
 
 ## Usado por
