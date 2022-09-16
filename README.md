@@ -3,18 +3,23 @@
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) [![contributors](https://img.shields.io/github/contributors/larjr/joatmon)]()
 
+
 # JoATMoN
 
 JoATMoN - Jack of All Trades, Master of None (Manja de Tudo, Mestre de Nada)
 
-Uma api para realizar mini
+Uma api para criar mini recursos como pequenos conversores, contadores, validadores, calculadoras, etc, como um canivete sui'co :wink:
+
+>Esse readme.md bem como a Wiki seráo em pt-br para facilitar a utilizaçao de novos devs que falam portugues. Só defini o nome como JoATMoN, em ingles, porque adoro Digimon, Pokémon e outras séries mon :heart::space_invader::heart:
+>>en-us version: This readme.md as well as the Wiki will be in pt-br to facilitate the use of new devs who speak Portuguese. I only defined the name as JoATMoN, in English, because I love Digimon, Pokémon and other series mon :heart::space_invader::heart:
+
 
 ## Agradecimentos
 
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
- - A comunidade [perifaCode](https://perifacode.com.br)
+ - A comunidade [perifaCode](https://perifacode.com.br) que [me ajudou, ajuda e ajudará ](https://www.youtube.com/watch?v=8FktUk0Dysc)
 
 
 ## Demo
@@ -22,18 +27,20 @@ Uma api para realizar mini
 Insert gif or link to demo
 
 
-## Documentation
+## Documentaçao
 
 <https://github.com/larjr/joatmon/wiki>
   
-## API Reference
+### API
 
-- [localhost](https://localhost:8080/joatmon/api/swagger-ui.html)
-- [QA]()
-- [PROD]()
+- [OpenAPI localhost](https://localhost:8080/joatmon/api/swagger-ui.html)
+- [OpenAPI QA]()
+- [OpenAPI PROD]()
 
 
-## Environment Variables
+## Variáveis de Ambiente
+
+>TODO: Traduzir e adaptar
 
 To run this project, you will need to add the following environment variables to your .env file
 
@@ -41,7 +48,9 @@ To run this project, you will need to add the following environment variables to
 
 `ANOTHER_API_KEY`
 
-## Run Locally
+## Executar localmente
+
+>TODO: Traduzir e adaptar
 
 Clone the project
 
@@ -67,7 +76,9 @@ Start the server
   npm run start
 ```
 
-## Running Tests
+## Rodando testes
+
+>TODO: Traduzir e adaptar
 
 To run tests, run the following command
 
@@ -75,7 +86,9 @@ To run tests, run the following command
   npm run test
 ```
 
-## Deployment
+## Deploy
+
+>TODO: Traduzir e adaptar
 
 To deploy this project run
 
@@ -83,7 +96,9 @@ To deploy this project run
   npm run deploy
 ```
 
-## Installation
+## Instalaçao
+
+>TODO: Traduzir e adaptar
 
 Install my-project with npm
 
@@ -92,7 +107,7 @@ Install my-project with npm
   cd my-project
 ```
     
-## Authors
+## Autores
 
 - [@luisangelorjr](https://www.github.com/luisangelorjr)
 
@@ -107,6 +122,8 @@ Please adhere to this project's `code of conduct`.
 
 ## FAQ
 
+>TODO: Traduzir e adaptar
+
 #### Question 1
 
 Answer 1
@@ -117,12 +134,14 @@ Answer 2
 
 ## Features
 
+>TODO: Traduzir e adaptar
+
 - Light/dark mode toggle
 - Live previews
 - Fullscreen mode
 - Cross platform
 
-## Lessons Learned
+## Liçoes aprendidas
 
 What did you learn while building this project? What challenges did you face and how did you overcome them?
 
@@ -131,51 +150,63 @@ What did you learn while building this project? What challenges did you face and
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
-## Used By
+## Usado por
 
-This project is used by the following companies:
+Esse projeto é usado pelas seguintes empresas/times/personalidades:
 
-- Company 1
-- Company 2
+- [@luisangelorjr](https://luisangelorjr.com.br)
+- [larjr | A Consultoria do Luís. Um lar para Juniors](https://larjr.com.br)
+- [Hacho | Like a Software House But a SaaS House](https://hacho.com.br)
+- [Handagar | Game Studios](https://handagar.com.br)
+- [Nem Na Minha Casa | Art Studios](https://nemnaminhacasa.com.br)
+- [Teatro Cyro Ferreira Lima](https://cyroferreira.com.br)
+- [Biblioteca Maria Brasilina](https://mariabrasilina.com.br)
 
 
-## Optimizations
+## Otimizaçoes
+
+>TODO: Traduzir e adaptar
 
 What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
 
 
-## Screenshots
+## Capturas de Telas
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
 ## Tech Stack
 
-**Client:** React, Redux, TailwindCSS
+**Cliente:** //TODO
 
-**Server:** Node, Express
+**Servidor:** Java, Spring
+
+**Infraestrutura:** Github, Github Actions, AWS, EC2.
 
 
-## Related
+## Projetos Relacionados
 
-Here are some related projects
+Esses sao outros projetos que tem relaçoes com esse:
 
 [Awesome README](https://github.com/matiassingers/awesome-readme)
 
 
 ## Roadmap
 
-- Additional browser support
-
-- Add more integrations
+- Terminar o fluxo CI/CD
+- Templates para issues/pull requsts e etc.
+- Definir ambientes (dev/local, QA, PROD)
+- Documentar de forma fácil para que os mentorados e futuros tenham um início muuuuito fácil
+- Definir e criar o front
 
 
 ## Feedback
 
 If you have any feedback, please reach out to us at fake@fake.com or open a github issue
+Se voce tem algum feedback, pode me mandar um email em luisangelorjr@gmail.com OU abrir uma issue aqui no repositório :wink:
 
 
-## Support
+## Suporte
 
-For support, email fake@fake.com or join our Slack channel.
+Para suporte na utilizacáo/consumo da API ou em algo relacionado ao projeto, pode me mandar um email em luisangelorjr@gmail.com OU abrir uma issue aqui no repositório :wink:
 
