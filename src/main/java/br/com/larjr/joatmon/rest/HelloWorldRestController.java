@@ -10,7 +10,7 @@ import br.com.larjr.joatmon.dto.HelloWorldDTO;
 
 @RestController
 @RequestMapping("/v1/hello-world")
-public class HelloWorldRest {
+public class HelloWorldRestController {
 	
 	@GetMapping("")
 	public ResponseEntity<HelloWorldDTO> hello(){

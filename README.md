@@ -1,15 +1,14 @@
 
 ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
-
-
-
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) [![contributors](https://img.shields.io/github/contributors/larjr/joatmon)]()
+
 # JoATMoN
 
 JoATMoN - Jack of All Trades, Master of None (Manja de Tudo, Mestre de Nada)
 
 Uma api para realizar mini
+
 ## Agradecimentos
 
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
@@ -25,12 +24,13 @@ Insert gif or link to demo
 
 ## Documentation
 
-- [localhost](http://localhost:8080/joatmon/api/swagger-ui.html)
+- [localhost](https://localhost:8080/joatmon/api/swagger-ui.html)
 - [QA]()
 - [PROD]()
+  
 ## API Reference
 
-- [localhost](http://localhost:8080/joatmon/api/swagger-ui.html)
+- [localhost](https://localhost:8080/joatmon/api/swagger-ui.html)
 - [QA]()
 - [PROD]()
 
@@ -42,7 +42,6 @@ To run this project, you will need to add the following environment variables to
 `API_KEY`
 
 `ANOTHER_API_KEY`
-
 
 ## Run Locally
 
@@ -70,7 +69,6 @@ Start the server
   npm run start
 ```
 
-
 ## Running Tests
 
 To run tests, run the following command
@@ -79,7 +77,6 @@ To run tests, run the following command
   npm run test
 ```
 
-
 ## Deployment
 
 To deploy this project run
@@ -87,7 +84,6 @@ To deploy this project run
 ```bash
   npm run deploy
 ```
-
 
 ## Installation
 
@@ -101,7 +97,6 @@ Install my-project with npm
 ## Authors
 
 - [@luisangelorjr](https://www.github.com/luisangelorjr)
-
 
 ## Contributing
 
@@ -122,7 +117,6 @@ Answer 1
 
 Answer 2
 
-
 ## Features
 
 - Light/dark mode toggle
@@ -130,11 +124,9 @@ Answer 2
 - Fullscreen mode
 - Cross platform
 
-
 ## Lessons Learned
 
 What did you learn while building this project? What challenges did you face and how did you overcome them?
-
 
 ## License
 
