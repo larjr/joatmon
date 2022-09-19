@@ -13,7 +13,7 @@
 	<name>JoATMoN - Jack of All Trades, Master of None.</name>
 	<description>A project for grouping a serie of mini-tools.</description>
 	<properties>
-		<java.version>18</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
