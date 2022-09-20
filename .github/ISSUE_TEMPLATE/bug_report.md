@@ -3,7 +3,8 @@ name: Reportar um BUG
 about: Reporte um BUG para nos ajudar a melhorar
 title: '[BUG] - [Escreva aqui um titulo para o BUG. Ex.: Mensagem de erro 4001, Tela congelando, Nada acontece feijoada]'
 labels: 'bug'
-assignees: '@luisangelorjr'
+assignees: 'luisangelorjr'
+
 ---
 
 ## Descreva o BUG
