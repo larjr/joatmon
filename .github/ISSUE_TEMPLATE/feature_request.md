@@ -2,8 +2,8 @@
 name: Dar uma ideia de melhoria/feature
 about: Sugira uma ideia para esse projeto e nos ajudar a melhorar
 title: '[ADD] - [Escreva aqui um titulo para a melhoria/feature. Ex.: Botao super revolucionario, gráfico hiper da hora, etc]'
-labels: 'feature'
-assignees: '@luisangelorjr'
+labels: 'enhancement'
+assignees: 'luisangelorjr'
 
 ---
 
