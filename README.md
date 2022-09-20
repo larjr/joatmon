@@ -55,7 +55,7 @@ Esse projeto é usado pelas seguintes empresas/times/personalidades:
   
 ### API
 
-- [OpenAPI localhost](https://localhost:8080/joatmon/api/swagger-ui.html)
+- [OpenAPI localhost](http://localhost:8080/joatmon/api/swagger-ui.html)
 - [OpenAPI QA]()
 - [OpenAPI PROD]()
 
