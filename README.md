@@ -10,7 +10,7 @@ JoATMoN - Jack of All Trades, Master of None (Manja de Tudo, Mestre de Nada)
 
 Uma api para criar mini recursos como pequenos conversores, contadores, validadores, calculadoras, etc, como um canivete sui'co :wink:
 
->Esse readme.md bem como a Wiki seráo em pt-br para facilitar a utilizaçao de novos devs que falam portugues. Só defini o nome como JoATMoN, em ingles, porque adoro Digimon, Pokémon e outras séries mon :heart::space_invader::heart:
+>Esse readme.md bem como a Wiki serão em pt-br para facilitar a utilização de novos devs que falam português. Só defini o nome como JoATMoN, em inglês, porque adoro Digimon, Pokémon e outras séries mon :heart::space_invader::heart:
 >>en-us version: This readme.md as well as the Wiki will be in pt-br to facilitate the use of new devs who speak Portuguese. I only defined the name as JoATMoN, in English, because I love Digimon, Pokémon and other series mon :heart::space_invader::heart:
 
 
@@ -55,7 +55,7 @@ Esse projeto é usado pelas seguintes empresas/times/personalidades:
   
 ### API
 
-- [OpenAPI localhost](https://localhost:8080/joatmon/api/swagger-ui.html)
+- [OpenAPI localhost](http://localhost:8080/joatmon/api/swagger-ui.html)
 - [OpenAPI QA]()
 - [OpenAPI PROD]()
 
@@ -146,7 +146,7 @@ Install my-project with npm
 ## Roadmap
 
 - Terminar o fluxo CI/CD
-- Templates para issues/pull requsts e etc.
+- Templates para issues/pull requests e etc.
 - Definir ambientes (dev/local, QA, PROD)
 - Documentar de forma fácil para que os mentorados e futuros tenham um início muuuuito fácil
 - Definir e criar o front
@@ -166,7 +166,7 @@ What optimizations did you make in your code? E.g. refactors, performance improv
 
 ## Projetos Relacionados
 
-Esses sao outros projetos que tem relaçoes com esse:
+Esses são outros projetos que tem relações com esse:
 
 [Awesome README](https://github.com/matiassingers/awesome-readme)
 
@@ -202,12 +202,12 @@ Answer 2
 
 ## Feedback
 
-Se voce tem algum feedback, pode me mandar um email em luisangelorjr@gmail.com OU abrir uma issue aqui no repositório :wink:
+Se você tem algum feedback, pode me mandar um e-mail em luisangelorjr@gmail.com OU abrir uma issue aqui no repositório :wink:
 
 
 ## Suporte
 
-Para suporte na utilizacáo/consumo da API ou em algo relacionado ao projeto, pode me mandar um email em luisangelorjr@gmail.com OU abrir uma issue aqui no repositório :wink:
+Para suporte na utilização/consumo da API ou em algo relacionado ao projeto, pode me mandar um e-mail em luisangelorjr@gmail.com OU abrir uma issue aqui no repositório :wink:
 
 
 ## Agradecimentos
