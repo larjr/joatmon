@@ -26,6 +26,10 @@ public class StringRestController {
 		//NUMBER OF CARACTERS WITHOUT SPACES
 		response.setCaractersWithoutSpaces(Long.valueOf(semEspaco.length()));
 		
+		//NUMBER OF SPACES
+		int Espacos = texto.length() - semEspaco.length();
+		response.setSpaces(Long.valueOf(Espacos));
+
 		//NUMBER OF VOWELS
 		int contador = 0;
 		for (int i = 0; i < semEspaco.length(); i++) {
