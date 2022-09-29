@@ -20,9 +20,13 @@ public class StringRestController {
 		response.setStringCountRequest(request);
 		response.setCaracters(Long.valueOf((request.getText().length())));
 
-		
 		String texto = request.getText();
 		String semEspaco = texto.replace(" ", "");
+		
+		//NUMBER OF CARACTERS WITHOUT SPACES
+		response.setCaractersWithoutSpaces(Long.valueOf(semEspaco.length()));
+		
+		//NUMBER OF VOWELS
 		int contador = 0;
 		for (int i = 0; i < semEspaco.length(); i++) {
 			if (semEspaco.charAt(i) == 'a' || semEspaco.charAt(i) == 'e' || semEspaco.charAt(i) == 'i' || semEspaco.charAt(i) == 'o' || semEspaco.charAt(i) == 'u') {
