@@ -19,7 +19,17 @@ public class StringRestController {
 		StringCountResponse response = new StringCountResponse();
 		response.setStringCountRequest(request);
 		response.setCaracters(Long.valueOf((request.getText().length())));
+
 		
+		String texto = request.getText();
+		String semEspaco = texto.replace(" ", "");
+		int contador = 0;
+		for (int i = 0; i < semEspaco.length(); i++) {
+			if (semEspaco.charAt(i) == 'a' || semEspaco.charAt(i) == 'e' || semEspaco.charAt(i) == 'i' || semEspaco.charAt(i) == 'o' || semEspaco.charAt(i) == 'u') {
+				contador++;
+			}
+		}
+		response.setVowels(Long.valueOf(contador));
 		return new ResponseEntity<>(response, HttpStatus.OK);
 	}
 
