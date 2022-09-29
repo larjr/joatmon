@@ -38,6 +38,18 @@ public class StringRestController {
 			}
 		}
 		response.setVowels(Long.valueOf(contador));
+		
+		//QUANTITY OF NUMBERS
+		char[] numeros = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
+		int totalNumeros = 0;
+		for (int t = 0; t < semEspaco.length(); t++) {
+			for (int n = 0; n < numeros.length; n++) {
+				if (semEspaco.charAt(t) == numeros[n]) {
+					totalNumeros++;
+				}
+			}
+		}
+		response.setNumbers(Long.valueOf(totalNumeros));
 		return new ResponseEntity<>(response, HttpStatus.OK);
 	}
 
