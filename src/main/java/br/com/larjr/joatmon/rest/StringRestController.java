@@ -26,6 +26,10 @@ public class StringRestController {
 		//NUMBER OF CARACTERS WITHOUT SPACES
 		response.setCaractersWithoutSpaces(Long.valueOf(semEspaco.length()));
 		
+		//NUMBER OF WORDS
+		String[] palavras = texto.split(" ");
+		response.setWords(Long.valueOf(palavras.length));
+		
 		//NUMBER OF SPACES
 		int Espacos = texto.length() - semEspaco.length();
 		response.setSpaces(Long.valueOf(Espacos));
