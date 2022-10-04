@@ -21,36 +21,58 @@ public class StringRestController {
 		response.setCaracters(Long.valueOf((request.getText().length())));
 
 		String texto = request.getText();
+		
+		response.setCaractersWithoutSpaces(contarCaracteresSemEspaco(texto));
+		
+		response.setWords(contarPalavras(texto));
+		
+		response.setSpaces(contarEspaços(texto));
+		
+		response.setLines(contarLinhas(texto));
+		
+		response.setVowels(contarVogal(texto));
+		
+		response.setNumbers(Long.valueOf(contarNumeros(texto)));
+		
+		return new ResponseEntity<>(response, HttpStatus.OK);
+	}
+	
+	private Long contarCaracteresSemEspaco(String texto){
 		String semEspaco = texto.replace(" ", "");
-		
-		//NUMBER OF CARACTERS WITHOUT SPACES
-		response.setCaractersWithoutSpaces(Long.valueOf(semEspaco.length()));
-		
-		//NUMBER OF WORDS
+		return Long.valueOf(semEspaco.length());
+	}
+	
+	private Long contarPalavras(String texto) {
 		String[] palavras = texto.split(" ");
-		response.setWords(Long.valueOf(palavras.length));
-		
-		//NUMBER OF SPACES
-		int Espacos = texto.length() - semEspaco.length();
-		response.setSpaces(Long.valueOf(Espacos));
-		
-		//NUMBER OF LINES
+		return Long.valueOf(palavras.length);
+	}
+	
+	private Long contarLinhas(String texto) {
 		int linhas = 0;
 		if (texto.contains("\r\n")) {
 			linhas += 1;
 		}
-		response.setLines(Long.valueOf(linhas));
-		
-		//NUMBER OF VOWELS
+		return Long.valueOf(linhas);
+	}
+	
+	private Long contarEspaços(String texto) {
+		String semEspaco = texto.replace(" ", "");
+		return Long.valueOf(texto.length() - semEspaco.length());
+	}
+	
+	private Long contarVogal(String texto) {
+		String semEspaco = texto.replace(" ", "");
 		int contador = 0;
 		for (int i = 0; i < semEspaco.length(); i++) {
 			if (semEspaco.charAt(i) == 'a' || semEspaco.charAt(i) == 'e' || semEspaco.charAt(i) == 'i' || semEspaco.charAt(i) == 'o' || semEspaco.charAt(i) == 'u') {
 				contador++;
 			}
 		}
-		response.setVowels(Long.valueOf(contador));
-		
-		//QUANTITY OF NUMBERS
+		return Long.valueOf(contador);
+	}
+	
+	private Long contarNumeros(String texto) {
+		String semEspaco = texto.replace(" ", "");
 		char[] numeros = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
 		int totalNumeros = 0;
 		for (int t = 0; t < semEspaco.length(); t++) {
@@ -60,8 +82,7 @@ public class StringRestController {
 				}
 			}
 		}
-		response.setNumbers(Long.valueOf(totalNumeros));
-		return new ResponseEntity<>(response, HttpStatus.OK);
+		return Long.valueOf(totalNumeros);
 	}
 
 }
