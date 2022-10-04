@@ -33,7 +33,14 @@ public class StringRestController {
 		//NUMBER OF SPACES
 		int Espacos = texto.length() - semEspaco.length();
 		response.setSpaces(Long.valueOf(Espacos));
-
+		
+		//NUMBER OF LINES
+		int linhas = 0;
+		if (texto.contains("\r\n")) {
+			linhas += 1;
+		}
+		response.setLines(Long.valueOf(linhas));
+		
 		//NUMBER OF VOWELS
 		int contador = 0;
 		for (int i = 0; i < semEspaco.length(); i++) {
