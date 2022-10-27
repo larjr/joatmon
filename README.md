@@ -1,5 +1,4 @@
-
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![twitter_header_photo_2](https://user-images.githubusercontent.com/22268900/198393745-903b7075-3315-4f59-873a-b7382e467c6d.png)
 
 [![CodeQL](https://github.com/larjr/joatmon/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/larjr/joatmon/actions/workflows/codeql-analysis.yml) [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) [![contributors](https://img.shields.io/github/contributors/larjr/joatmon)]()
 
@@ -7,6 +6,8 @@
 # JoATMoN
 
 JoATMoN - Jack of All Trades, Master of None (Manja de Tudo, Mestre de Nada)
+
+
 
 Uma api para criar mini recursos como pequenos conversores, contadores, validadores, calculadoras, etc, como um canivete sui'co :wink:
 
@@ -223,4 +224,6 @@ Para suporte na utilização/consumo da API ou em algo relacionado ao projeto, p
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
+---
 
+![logo_transparent](https://user-images.githubusercontent.com/22268900/198393374-daa3842d-d683-4327-811f-600977ebccb1.png)
