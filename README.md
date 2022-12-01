@@ -120,6 +120,19 @@ To run tests, run the following command
   npm run test
 ```
 
+## Docker
+
+>TODO: Traduzir e adaptar
+
+To deploy this project run
+
+```bash
+	docker build . --tag=joatmon:latest
+```
+
+```bash
+	docker run -p8080:8080 joatmon:latest
+```
 
 ## Deploy
 
@@ -130,7 +143,6 @@ To deploy this project run
 ```bash
   npm run deploy
 ```
-
 
 ## Instalaçao
 
