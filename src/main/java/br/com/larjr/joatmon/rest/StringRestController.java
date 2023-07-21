@@ -16,23 +16,21 @@ public class StringRestController {
 
 	@PostMapping("/count")
 	public ResponseEntity<StringCountResponse> hello(@RequestBody StringCountRequest request){
-		StringCountResponse response = new StringCountResponse();
-		response.setStringCountRequest(request);
-		response.setCaracters(Long.valueOf((request.getText().length())));
 
 		String texto = request.getText();
-		
-		response.setCaractersWithoutSpaces(contarCaracteresSemEspaco(texto));
-		
-		response.setWords(contarPalavras(texto));
-		
-		response.setSpaces(contarEspaços(texto));
-		
-		response.setLines(contarLinhas(texto));
-		
-		response.setVowels(contarVogal(texto));
-		
-		response.setNumbers(Long.valueOf(contarNumeros(texto)));
+
+		StringCountResponse response =
+				StringCountResponse
+						.builder()
+						.stringCountRequest(request)
+						.caracters(Long.valueOf((texto.length())))
+						.caractersWithoutSpaces(contarCaracteresSemEspaco(texto))
+						.words(contarPalavras(texto))
+						.spaces(contarEspaços(texto))
+						.lines(contarLinhas(texto))
+						.vowels(contarVogal(texto))
+						.numbers(Long.valueOf(contarNumeros(texto)))
+						.build();
 		
 		return new ResponseEntity<>(response, HttpStatus.OK);
 	}
@@ -84,5 +82,4 @@ public class StringRestController {
 		}
 		return Long.valueOf(totalNumeros);
 	}
-
 }

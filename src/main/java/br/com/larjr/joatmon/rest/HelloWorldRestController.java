@@ -14,7 +14,12 @@ public class HelloWorldRestController {
 	
 	@GetMapping("")
 	public ResponseEntity<HelloWorldDTO> hello(){
-		return new ResponseEntity<>(new HelloWorldDTO(), HttpStatus.OK);
-	}
 
+		return new ResponseEntity<>(
+				HelloWorldDTO
+						.builder()
+						.build(),
+				HttpStatus.OK
+		);
+	}
 }

@@ -16,11 +16,16 @@ public class StringWordCounterRestController {
 	
 	@PostMapping("/word-counter")
 	public ResponseEntity<StringWordCounterResponse> hello(@RequestBody StringWordCounterRequest request){
-		StringWordCounterResponse response = new StringWordCounterResponse();
+
 		String texto = request.getText();
 		String palavra = request.getWord();
-		response.setStringWordCounterRequest(request);
-		response.setWordOccurrenceCounter(contarOcorrenciaDePalavras(texto, palavra));
+
+		StringWordCounterResponse response =
+				StringWordCounterResponse
+						.builder()
+						.stringWordCounterRequest(request)
+						.wordOccurrenceCounter(contarOcorrenciaDePalavras(texto, palavra))
+						.build();
 		
 		return new ResponseEntity<>(response, HttpStatus.OK);
 	}
