@@ -12,15 +12,17 @@ import br.com.larjr.joatmon.dto.response.StringInvertTextResponse;
 
 @RestController
 @RequestMapping("v1/string")
-
 public class StringInvertTextRestController {
 	
 	@PostMapping("/inverttext")
 	public ResponseEntity<StringInvertTextResponse> hello(@RequestBody StringInvertTextRequest request) {
-		StringInvertTextResponse response = new StringInvertTextResponse();
-		response.setStringInvertTextRequest(request);
-		String texto = request.getText();
-		response.setInvertText(inverterTexto(texto));
+		StringInvertTextResponse response =
+				StringInvertTextResponse
+						.builder()
+						.stringInvertTextRequest(request)
+						.build();
+
+		response.setInvertText(request.getText());
 		
 		return new ResponseEntity<>(response, HttpStatus.OK);
 	}

@@ -1,7 +1,5 @@
 package br.com.larjr.joatmon.dto.response;
 
-import java.util.Objects;
-
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import br.com.larjr.joatmon.dto.request.StringWordCounterRequest;
@@ -16,7 +14,6 @@ import lombok.extern.jackson.Jacksonized;
 @Jacksonized
 public class StringWordCounterResponse {
 
-		@JsonProperty(required = true)
-		private StringWordCounterRequest stringWordCounterRequest;
+		@JsonProperty(required = true) private StringWordCounterRequest stringWordCounterRequest;
 		private Long wordOccurrenceCounter;
 }

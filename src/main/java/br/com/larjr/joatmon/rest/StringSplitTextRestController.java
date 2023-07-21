@@ -18,12 +18,13 @@ public class StringSplitTextRestController {
 	
 	@PostMapping("/split-text")
 	public ResponseEntity<StringSplitTextResponse> hello(@RequestBody StringSplitTextRequest request){
-		StringSplitTextResponse response = new StringSplitTextResponse();
-		response.setStringSplitTextRequest(request);
-		String texto = request.getText();
-		
-		response.setSplitText(separarTexto(texto));
-		
+		StringSplitTextResponse response =
+				StringSplitTextResponse
+						.builder()
+						.stringSplitTextRequest(request)
+						.splitText(separarTexto(request.getText()))
+						.build();
+
 		return new ResponseEntity<>(response, HttpStatus.OK);
 	}
 		

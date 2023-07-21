@@ -15,13 +15,16 @@ import br.com.larjr.joatmon.dto.response.StringLowercaseAndUppercaseResponse;
 public class StringLowercaseAndUppercaseRestController {
 	
 	@PostMapping("/lowercaseanduppercase")
-	
 	public ResponseEntity<StringLowercaseAndUppercaseResponse> hello(@RequestBody StringLowercaseAndUppercaseRequest request) {
-		StringLowercaseAndUppercaseResponse response = new StringLowercaseAndUppercaseResponse();
-		response.setStringLowercaseAndUppercaseRequest(request);
-		String texto = request.getText();
-		response.setLowercase(minusculo(texto));
-		response.setUppercase(maiusculo(texto));
+		StringLowercaseAndUppercaseResponse response =
+				StringLowercaseAndUppercaseResponse
+						.builder()
+						.stringLowercaseAndUppercaseRequest(request)
+						.build();
+
+
+		response.setLowercase(request.getText());
+		response.setUppercase(request.getText());
 		
 		return new ResponseEntity<>(response, HttpStatus.OK);
 	}

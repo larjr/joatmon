@@ -1,7 +1,5 @@
 package br.com.larjr.joatmon.dto.response;
 
-import java.util.Objects;
-
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import br.com.larjr.joatmon.dto.request.StringInvertTextRequest;
@@ -18,5 +16,4 @@ public class StringInvertTextResponse {
 	
 	@JsonProperty(required = true) private StringInvertTextRequest stringInvertTextRequest;
 	private String invertText;
-
 }

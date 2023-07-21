@@ -13,7 +13,7 @@ import java.util.Objects;
 @EqualsAndHashCode
 @Jacksonized
 public class HelloWorldDTO {
+
 	private String greeting;
 	private LocalDateTime localDateTime;
-
 }
